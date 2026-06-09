@@ -5,7 +5,10 @@ export function CTASection() {
   return (
     <section id="contact" className="bg-background py-20 lg:py-28">
       <div className="container mx-auto px-4">
-        <div className="relative mx-auto max-w-5xl overflow-hidden rounded-3xl bg-[var(--gradient-hero)] p-10 text-center text-brand-foreground shadow-[var(--shadow-elegant)] sm:p-16">
+        <div
+          className="relative mx-auto max-w-5xl overflow-hidden rounded-3xl p-10 text-center text-white shadow-[var(--shadow-elegant)] sm:p-16"
+          style={{ backgroundImage: "var(--gradient-hero)" }}
+        >
           <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-primary/30 blur-3xl" />
           <div className="absolute -bottom-20 -left-20 h-64 w-64 rounded-full bg-primary/20 blur-3xl" />
           <div className="relative">

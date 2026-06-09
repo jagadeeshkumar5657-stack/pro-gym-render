@@ -1,5 +1,6 @@
 import { Phone, MessageCircle, ShieldCheck, Clock, Wrench } from "lucide-react";
 import { PHONE, PHONE_TEL, WHATSAPP_URL } from "@/lib/whatsapp";
+import repairVideo from "@/assets/repair-video.mp4.asset.json";
 
 export function Hero() {
   return (
@@ -58,14 +59,15 @@ export function Hero() {
         <div className="relative animate-float-up">
           <div className="absolute -inset-4 rounded-3xl bg-gradient-to-tr from-primary/40 to-transparent blur-2xl" />
           <div className="relative overflow-hidden rounded-3xl border border-white/15 shadow-[var(--shadow-elegant)] bg-black">
-            <div className="aspect-video w-full">
-              <iframe
-                src="https://www.youtube-nocookie.com/embed/2HbKegbpm84?autoplay=1&mute=1&loop=1&playlist=2HbKegbpm84&controls=1&modestbranding=1&rel=0"
-                title="Gym equipment repair process"
-                className="h-full w-full"
-                loading="lazy"
-                allow="autoplay; encrypted-media; picture-in-picture"
-                allowFullScreen
+            <div className="aspect-video w-full bg-black">
+              <video
+                src={repairVideo.url}
+                className="h-full w-full object-cover"
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="auto"
               />
             </div>
             <div className="flex items-center justify-between bg-background/95 px-4 py-3 text-foreground backdrop-blur">
