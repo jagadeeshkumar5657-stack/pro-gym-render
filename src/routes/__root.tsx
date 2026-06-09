@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Next-Level-Gym" },
+      { name: "description", content: "A photorealistic 3D viewer showcases high-fidelity gym equipment with interactive controls." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Next-Level-Gym" },
+      { property: "og:description", content: "A photorealistic 3D viewer showcases high-fidelity gym equipment with interactive controls." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Next-Level-Gym" },
+      { name: "twitter:description", content: "A photorealistic 3D viewer showcases high-fidelity gym equipment with interactive controls." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8ca1a53b-053c-4f6f-9419-08eaa11c64b2/id-preview-0a5ee30a--8e305633-ce1c-42ac-956e-3ae102833f30.lovable.app-1781001511974.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8ca1a53b-053c-4f6f-9419-08eaa11c64b2/id-preview-0a5ee30a--8e305633-ce1c-42ac-956e-3ae102833f30.lovable.app-1781001511974.png" },
     ],
     links: [
       {
