@@ -1,6 +1,6 @@
 import { Phone, MessageCircle, ShieldCheck, Clock, Wrench } from "lucide-react";
 import { PHONE, PHONE_TEL, WHATSAPP_URL } from "@/lib/whatsapp";
-import repairVideo from "@/assets/repair-video.mp4.asset.json";
+import repairHero from "@/assets/repair-hero.jpg";
 
 export function Hero() {
   return (
@@ -60,14 +60,12 @@ export function Hero() {
           <div className="absolute -inset-4 rounded-3xl bg-gradient-to-tr from-primary/40 to-transparent blur-2xl" />
           <div className="relative overflow-hidden rounded-3xl border border-white/15 shadow-[var(--shadow-elegant)] bg-black">
             <div className="aspect-video w-full bg-black">
-              <video
-                src={repairVideo.url}
+              <img
+                src={repairHero}
+                alt="3D render of technician repairing a treadmill motor"
+                width={1280}
+                height={720}
                 className="h-full w-full object-cover"
-                autoPlay
-                muted
-                loop
-                playsInline
-                preload="auto"
               />
             </div>
             <div className="flex items-center justify-between bg-background/95 px-4 py-3 text-foreground backdrop-blur">
