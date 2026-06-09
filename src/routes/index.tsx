@@ -72,6 +72,7 @@ function Index() {
         <WhyUs />
         <Process />
         <CTASection />
+        <LocationMap />
       </main>
       <SiteFooter />
       <WhatsAppFloat />
