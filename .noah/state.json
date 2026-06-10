@@ -1,0 +1,19 @@
+{
+  "generatedBy": "Noah-AI",
+  "schema": 1,
+  "lastDeployment": {
+    "deploymentId": "dpl_5nT7gAegGFxbPnWbcyX2Vn1bm7vW",
+    "platform": "vercel",
+    "commit": "3aefa769d070463769ed80c8eaec439b65903398",
+    "url": "https://pro-gym-render.vercel.app",
+    "status": "success",
+    "deployedAt": "2026-06-10T04:03:52.789Z"
+  },
+  "lastSuccessfulDeployment": {
+    "deploymentId": "dpl_5nT7gAegGFxbPnWbcyX2Vn1bm7vW",
+    "platform": "vercel",
+    "commit": "3aefa769d070463769ed80c8eaec439b65903398",
+    "url": "https://pro-gym-render.vercel.app",
+    "deployedAt": "2026-06-10T04:03:52.789Z"
+  }
+}
