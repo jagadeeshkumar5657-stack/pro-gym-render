@@ -1,0 +1,13 @@
+{
+  "deploymentId": "dpl_2bEZ6MkB33oH9T5QFT2hANsBu59i",
+  "sequence": 4,
+  "platform": "vercel",
+  "strategy": "E",
+  "database": "neon",
+  "status": "success",
+  "commit": "491ba5a5b3c04cad44fcc333107a447ad4b3f93b",
+  "deploymentUrl": "https://pro-gym-render.vercel.app",
+  "durationMs": 81051,
+  "generatedFiles": [],
+  "createdAt": "2026-06-10T07:29:15.028Z"
+}
