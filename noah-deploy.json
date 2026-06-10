@@ -6,8 +6,8 @@
     "language": "TypeScript",
     "appType": "fullstack"
   },
-  "platform": "render",
-  "strategy": "C",
+  "platform": "vercel",
+  "strategy": "E",
   "tier": "free",
   "frontend": {
     "framework": "TanStack Start",
@@ -21,7 +21,7 @@
     "provider": "neon"
   },
   "buildCommand": "npm run build",
-  "startCommand": "npm run dev",
+  "startCommand": "node .output/server/index.mjs",
   "envRequired": [
     "DATABASE_URL",
     "NEON_DATABASE_URL",
