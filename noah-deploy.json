@@ -6,7 +6,7 @@
     "language": "TypeScript",
     "appType": "fullstack"
   },
-  "platform": "vercel",
+  "platform": "render",
   "strategy": "C",
   "tier": "free",
   "frontend": {
