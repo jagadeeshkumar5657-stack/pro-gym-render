@@ -1,0 +1,32 @@
+{
+  "generatedBy": "Noah-AI",
+  "schema": 2,
+  "project": {
+    "name": null,
+    "language": "TypeScript",
+    "appType": "fullstack"
+  },
+  "platform": "vercel",
+  "strategy": "C",
+  "tier": "free",
+  "frontend": {
+    "framework": "TanStack Start",
+    "root": null
+  },
+  "backend": {
+    "framework": "TanStack Start",
+    "root": null
+  },
+  "database": {
+    "provider": "neon"
+  },
+  "buildCommand": "npm run build",
+  "startCommand": "npm run dev",
+  "envRequired": [
+    "DATABASE_URL",
+    "NEON_DATABASE_URL",
+    "STRIPE_SECRET_KEY",
+    "X"
+  ],
+  "generatedFiles": []
+}
