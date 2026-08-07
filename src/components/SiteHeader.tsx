@@ -1,4 +1,4 @@
-import { Phone, Wrench } from "lucide-react";
+import { Phone } from "lucide-react";
 import { PHONE, PHONE_TEL, WHATSAPP_URL } from "@/lib/whatsapp";
 
 export function SiteHeader() {
@@ -6,9 +6,13 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 w-full border-b border-border/60 bg-background/80 backdrop-blur-lg">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <a href="#top" className="flex items-center gap-2">
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[var(--gradient-accent)] text-primary-foreground shadow-[var(--shadow-glow)]">
-            <Wrench className="h-5 w-5" strokeWidth={2.5} />
+          <div
+            className="flex h-10 w-10 items-center justify-center rounded-xl text-base font-black tracking-tight text-primary-foreground shadow-[var(--shadow-glow)]"
+            style={{ backgroundImage: "var(--gradient-accent)" }}
+          >
+            NK
           </div>
+
           <div className="leading-tight">
             <div className="text-sm font-bold tracking-tight text-brand">NEXT LEVEL</div>
             <div className="text-[10px] uppercase tracking-widest text-muted-foreground">Gym & Services</div>

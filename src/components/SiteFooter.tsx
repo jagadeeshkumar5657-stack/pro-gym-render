@@ -1,4 +1,4 @@
-import { Phone, MessageCircle, Clock, Wrench } from "lucide-react";
+import { Phone, MessageCircle, Clock } from "lucide-react";
 import { PHONE, PHONE_TEL, WHATSAPP_URL } from "@/lib/whatsapp";
 
 export function SiteFooter() {
@@ -7,9 +7,13 @@ export function SiteFooter() {
       <div className="container mx-auto grid gap-10 px-4 py-14 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <div className="flex items-center gap-2">
-            <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[var(--gradient-accent)]">
-              <Wrench className="h-5 w-5" strokeWidth={2.5} />
+            <div
+              className="flex h-10 w-10 items-center justify-center rounded-xl text-base font-black tracking-tight text-primary-foreground"
+              style={{ backgroundImage: "var(--gradient-accent)" }}
+            >
+              NK
             </div>
+
             <div className="text-lg font-bold">NEXT LEVEL</div>
           </div>
           <p className="mt-3 text-sm text-white/70">Your Fitness, Our Priority!</p>
