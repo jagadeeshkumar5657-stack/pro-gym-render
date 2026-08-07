@@ -8,6 +8,7 @@ const shots = [
     alt: "Next Level Gym poster with contact number and timings",
     caption: "Next Level Gym",
     sub: "Morning 5:30–11:00 AM · Evening 4:00–9:00 PM",
+    contain: true,
   },
   {
     src: floorAsset.url,
@@ -47,14 +48,13 @@ export function Gallery() {
                 src={s.src}
                 alt={s.alt}
                 loading="lazy"
-                className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                className={`aspect-[4/3] w-full transition-transform duration-700 group-hover:scale-105 ${
+                  "contain" in s && s.contain ? "bg-brand object-contain" : "object-cover"
+                }`}
               />
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-brand/90 via-brand/25 to-transparent" />
-              <figcaption className="absolute inset-x-0 bottom-0 p-4 sm:p-5">
-                <div className="truncate text-base font-bold text-brand-foreground sm:text-lg">
-                  {s.caption}
-                </div>
-                <div className="mt-0.5 text-xs text-brand-foreground/85 sm:text-sm">{s.sub}</div>
+              <figcaption className="border-t border-border bg-card p-4 sm:p-5">
+                <div className="truncate text-base font-bold text-brand sm:text-lg">{s.caption}</div>
+                <div className="mt-0.5 text-xs text-muted-foreground sm:text-sm">{s.sub}</div>
               </figcaption>
             </figure>
           ))}
