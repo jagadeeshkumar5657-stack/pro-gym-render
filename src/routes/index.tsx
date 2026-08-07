@@ -72,6 +72,7 @@ function Index() {
         <About />
         <WhyUs />
         <Process />
+        <Gallery />
         <CTASection />
         <LocationMap />
       </main>
