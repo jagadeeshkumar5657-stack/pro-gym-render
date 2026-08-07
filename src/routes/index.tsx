@@ -5,6 +5,7 @@ import { Services } from "@/components/Services";
 import { About } from "@/components/About";
 import { WhyUs } from "@/components/WhyUs";
 import { Process } from "@/components/Process";
+import { Gallery } from "@/components/Gallery";
 import { CTASection } from "@/components/CTASection";
 import { LocationMap } from "@/components/LocationMap";
 import { SiteFooter } from "@/components/SiteFooter";
