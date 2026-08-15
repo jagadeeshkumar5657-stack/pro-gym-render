@@ -17,7 +17,7 @@ const shots = [
     sub: "Cardio, strength & free weights",
   },
   {
-    src: equipAsset.url,
+    src: equipImg,
     alt: "Rows of well-maintained gym equipment and weight plates",
     caption: "Serviced & ready",
     sub: "Every machine maintained by our team",
