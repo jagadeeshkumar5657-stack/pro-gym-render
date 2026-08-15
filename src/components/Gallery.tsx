@@ -1,17 +1,17 @@
-import posterAsset from "@/assets/gym-poster.jpg.asset.json";
-import floorAsset from "@/assets/gym-floor.jpg.asset.json";
-import equipAsset from "@/assets/gym-equipment.jpg.asset.json";
+import posterImg from "@/assets/gym-poster.jpg";
+import floorImg from "@/assets/gym-floor.jpg";
+import equipImg from "@/assets/gym-equipment.jpg";
 
 const shots = [
   {
-    src: posterAsset.url,
+    src: posterImg,
     alt: "Next Level Gym poster with contact number and timings",
     caption: "Next Level Gym",
     sub: "Morning 5:30–11:00 AM · Evening 4:00–9:00 PM",
     contain: true,
   },
   {
-    src: floorAsset.url,
+    src: floorImg,
     alt: "Gym floor with treadmills, benches and strength machines",
     caption: "Fully equipped floor",
     sub: "Cardio, strength & free weights",
