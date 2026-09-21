@@ -28,5 +28,8 @@
     "STRIPE_SECRET_KEY",
     "X"
   ],
-  "generatedFiles": []
+  "generatedFiles": [
+    ".dockerignore",
+    "Dockerfile"
+  ]
 }
