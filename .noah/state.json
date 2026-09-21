@@ -2,18 +2,18 @@
   "generatedBy": "Noah-AI",
   "schema": 1,
   "lastDeployment": {
-    "deploymentId": "dpl_D1EoyN39FefZ9oMN1znWZJ6ntJPf",
+    "deploymentId": "dpl_HC8HHMqwVz1DAMWJjnANZRWvqyMu",
     "platform": "vercel",
-    "commit": "77f0f1f847bf80c001be9ba62c9daa7f2350eaee",
+    "commit": "43907d9a0dd25add5bd0f8806995c58e1fabc06a",
     "url": "https://pro-gym-render.vercel.app",
     "status": "success",
-    "deployedAt": "2026-06-24T16:33:47.876Z"
+    "deployedAt": "2026-09-21T09:53:38.791Z"
   },
   "lastSuccessfulDeployment": {
-    "deploymentId": "dpl_D1EoyN39FefZ9oMN1znWZJ6ntJPf",
+    "deploymentId": "dpl_HC8HHMqwVz1DAMWJjnANZRWvqyMu",
     "platform": "vercel",
-    "commit": "77f0f1f847bf80c001be9ba62c9daa7f2350eaee",
+    "commit": "43907d9a0dd25add5bd0f8806995c58e1fabc06a",
     "url": "https://pro-gym-render.vercel.app",
-    "deployedAt": "2026-06-24T16:33:47.876Z"
+    "deployedAt": "2026-09-21T09:53:38.791Z"
   }
 }
