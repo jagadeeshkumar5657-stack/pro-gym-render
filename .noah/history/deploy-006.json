@@ -1,0 +1,16 @@
+{
+  "deploymentId": "dpl_HC8HHMqwVz1DAMWJjnANZRWvqyMu",
+  "sequence": 6,
+  "platform": "vercel",
+  "strategy": "E",
+  "database": "neon",
+  "status": "success",
+  "commit": "43907d9a0dd25add5bd0f8806995c58e1fabc06a",
+  "deploymentUrl": "https://pro-gym-render.vercel.app",
+  "durationMs": 106934,
+  "generatedFiles": [
+    "Dockerfile",
+    ".dockerignore"
+  ],
+  "createdAt": "2026-09-21T09:53:38.791Z"
+}
